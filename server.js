@@ -3,7 +3,7 @@ const app = express()
 
 app.use(express.json())
 
-const seriesRoutes = require('./routes/seriesRoutes')
+const seriesRoutes = require('./seriesRoutes')
 app.use('/api/series', seriesRoutes)
 
 app.listen(3000, () => {
