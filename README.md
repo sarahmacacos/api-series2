@@ -159,7 +159,6 @@ Content-Type: application/json
 }
 ```
 
-![PUT atualizar série](assets/put.png)
 
 **Resposta (404 Not Found):**
 ```json
@@ -245,11 +244,3 @@ Testes incluídos:
 - PUT série inexistente (404)
 - DELETE série (sucesso — 204)
 - DELETE série inexistente (404)
-
----
-
-## Autora
-
-**Sarah Macacos**
-Estudante de Ciência da Computação — UniFil
-[github.com/sarahmacacos](https://github.com/sarahmacacos)
