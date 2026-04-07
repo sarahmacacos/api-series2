@@ -1,11 +1,12 @@
-# 📺 API de Séries
+# API de Séries v2
 
 API REST desenvolvida em **Node.js com Express** para gerenciamento de séries de TV.  
 Permite realizar operações CRUD completas com validação de dados e tratamento de erros.
+Agora Utilizando Get, Post, Put & Delete no PostMan! 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Node.js**
 - **Express.js**
@@ -13,7 +14,7 @@ Permite realizar operações CRUD completas com validação de dados e tratament
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 api-series/
@@ -29,7 +30,7 @@ api-series/
 
 ---
 
-## ▶️ Como Executar
+## Como Executar
 
 ```bash
 # 1. Clone o repositório
@@ -56,7 +57,7 @@ http://localhost:3000/api/series
 
 ---
 
-### ✅ GET /api/series — Listar todas as séries
+### GET /api/series — Listar todas as séries
 
 **Requisição:**
 ```
@@ -75,7 +76,7 @@ GET http://localhost:3000/api/series
 
 ---
 
-### ✅ GET /api/series/:id — Buscar série por ID
+### GET /api/series/:id — Buscar série por ID
 
 **Requisição:**
 ```
@@ -96,7 +97,7 @@ GET http://localhost:3000/api/series/1
 
 ---
 
-### ✅ POST /api/series — Criar nova série
+### POST /api/series — Criar nova série
 
 **Requisição:**
 ```
@@ -134,7 +135,7 @@ Content-Type: application/json
 
 ---
 
-### ✅ PUT /api/series/:id — Atualizar série
+### PUT /api/series/:id — Atualizar série
 
 **Requisição:**
 ```
@@ -170,7 +171,7 @@ Content-Type: application/json
 
 ---
 
-### ✅ DELETE /api/series/:id — Deletar série
+### DELETE /api/series/:id — Deletar série
 
 **Requisição:**
 ```
@@ -191,7 +192,7 @@ Sem body na resposta — comportamento correto para DELETE.
 
 ---
 
-## 🔒 Validações Implementadas
+## Validações Implementadas
 
 | Campo    | Regra                             |
 |----------|-----------------------------------|
@@ -202,7 +203,7 @@ Sem body na resposta — comportamento correto para DELETE.
 
 ---
 
-## 📊 Status Codes Utilizados
+## Status Codes Utilizados
 
 | Código | Significado  | Quando é usado               |
 |--------|--------------|------------------------------|
@@ -214,7 +215,7 @@ Sem body na resposta — comportamento correto para DELETE.
 
 ---
 
-## 🎬 Dados Iniciais (10 séries)
+## Dados Iniciais (10 séries)
 
 | ID | Título           | Gênero            | Ano  |
 |----|------------------|-------------------|------|
@@ -231,7 +232,7 @@ Sem body na resposta — comportamento correto para DELETE.
 
 ---
 
-## 🧪 Collection do Postman
+## Collection do Postman
 
 Importe o arquivo `collection.postman_collection.json` no Postman para testar todos os endpoints.
 
